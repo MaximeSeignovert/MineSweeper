@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "694186317814",
+    "project_id": "flutter-minesweeper-d7574",
+    "storage_bucket": "flutter-minesweeper-d7574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694186317814:android:7a5c03e006e16ba75ad9d7",
+        "android_client_info": {
+          "package_name": "com.example.minesweeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC_pAQgj-vK2N2hVxd4sQHFPcsnGfRmgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
