@@ -1,5 +1,5 @@
 /// Record pour représenter les coordonnées d'une case de la grille
-typedef Coordonnees = ({int ligne, int colonne});
+typedef Coordonnees = ({int ligne, int colonne}); 
 
 /// Etat d'une case de la grille pour le joueur
 enum Etat { couverte, marquee, decouverte }
