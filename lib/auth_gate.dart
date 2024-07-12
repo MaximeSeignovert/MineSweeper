@@ -18,7 +18,7 @@ class AuthGate extends StatelessWidget {
           return Stack(
             alignment: Alignment.center,
             children: [
-              Image.network('MineSweeper.png'),
+              Image.network('/assets/MineSweeper.png'),
               const CircularProgressIndicator(
                 valueColor: AlwaysStoppedAnimation<Color>(Colors.blue), // Couleur de l'indicateur de progression
                 strokeWidth: 4, // Largeur de la ligne de progression
@@ -41,7 +41,7 @@ class AuthGate extends StatelessWidget {
                       padding: const EdgeInsets.all(20),
                       child: AspectRatio(
                         aspectRatio: 1,
-                        child: Image.network('MineSweeper.png'),
+                        child: Image.network('/assets/MineSweeper.png'),
                       ),
                     );
                   },
@@ -67,7 +67,7 @@ class AuthGate extends StatelessWidget {
                       padding: const EdgeInsets.all(20),
                       child: AspectRatio(
                         aspectRatio: 1,
-                        child: Image.network('MineSweeper.png'),
+                        child: Image.network('/assets/MineSweeper.png'),
                       ),
                     );
                   },
