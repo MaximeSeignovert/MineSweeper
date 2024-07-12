@@ -11,14 +11,14 @@ class AuthGate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<void>(
-      future: precacheImage(AssetImage('MineSweeper.png'), context),
+      future: precacheImage(AssetImage('assets/assets/MineSweeper.png'), context),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           // Afficher un indicateur de chargement tant que l'image est en cours de préchargement
           return Stack(
             alignment: Alignment.center,
             children: [
-              Image.network('/assets/MineSweeper.png'),
+              Image.network('assets/assets/MineSweeper.png'),
               const CircularProgressIndicator(
                 valueColor: AlwaysStoppedAnimation<Color>(Colors.blue), // Couleur de l'indicateur de progression
                 strokeWidth: 4, // Largeur de la ligne de progression
@@ -41,7 +41,7 @@ class AuthGate extends StatelessWidget {
                       padding: const EdgeInsets.all(20),
                       child: AspectRatio(
                         aspectRatio: 1,
-                        child: Image.network('/assets/MineSweeper.png'),
+                        child: Image.network('assets/assets/MineSweeper.png'),
                       ),
                     );
                   },
@@ -67,7 +67,7 @@ class AuthGate extends StatelessWidget {
                       padding: const EdgeInsets.all(20),
                       child: AspectRatio(
                         aspectRatio: 1,
-                        child: Image.network('/assets/MineSweeper.png'),
+                        child: Image.network('assets/assets/MineSweeper.png'),
                       ),
                     );
                   },
