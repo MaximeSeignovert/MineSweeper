@@ -29,8 +29,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/MineSweeper.png
-    - assets/Bomb.png
+    - assets/
   fonts:
     - family: SocialIcons
       fonts:
