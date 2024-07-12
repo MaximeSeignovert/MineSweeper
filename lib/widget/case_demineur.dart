@@ -8,7 +8,7 @@ class CaseDemineur extends StatelessWidget {
   final void Function(Coordonnees) onRightTap;
   final Case maCase;
 
-  const CaseDemineur({
+  const CaseDemineur({super.key, 
     required this.maCase,
     required this.coord,
     required this.onLeftTap,

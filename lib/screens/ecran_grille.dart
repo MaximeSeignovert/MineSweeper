@@ -175,7 +175,7 @@ void _showScore() async{
   void handleLeftTap(Coordonnees coord) {
   if(partieTerminee==false){
     setState(() {
-      Coup coup = Coup(coord.ligne, coord.colonne, actionCase.decouvrir);
+      Coup coup = Coup(coord.ligne, coord.colonne, ActionCase.decouvrir);
       grille.mettreAJour(coup);
       if (grille.isFinie()) {
         partieTerminee = true;
@@ -188,7 +188,7 @@ void _showScore() async{
 void handleRightTap(Coordonnees coord) {
   if(partieTerminee==false){
     setState(() {
-      Coup coup = Coup(coord.ligne, coord.colonne, actionCase.marquer);
+      Coup coup = Coup(coord.ligne, coord.colonne, ActionCase.marquer);
       grille.mettreAJour(coup);
       if (grille.isFinie()) {
         partieTerminee = true;

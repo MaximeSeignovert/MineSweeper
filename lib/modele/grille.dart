@@ -112,9 +112,9 @@ class Grille {
     
     Case casePlayed = getCase(coup.coordonnees);
 
-    if(coup.action == actionCase.marquer){
+    if(coup.action == ActionCase.marquer){
         casePlayed.inverserMarque();
-    }else if(coup.action == actionCase.decouvrir && casePlayed.etat == Etat.couverte){
+    }else if(coup.action == ActionCase.decouvrir && casePlayed.etat == Etat.couverte){
         decouvrirVoisines(coup.coordonnees);
     }
   }
@@ -165,9 +165,9 @@ class Grille {
         Case caseToCheck = getCase((ligne : lig,colonne : col));
 
         if(caseToCheck.minee == false && caseToCheck.etat == Etat.couverte){
-          return Coup(lig,col,actionCase.decouvrir);
+          return Coup(lig,col,ActionCase.decouvrir);
         }else if(caseToCheck.minee == true && caseToCheck.etat == Etat.couverte){
-          return Coup(lig,col,actionCase.marquer);
+          return Coup(lig,col,ActionCase.marquer);
         }
       }
     }
