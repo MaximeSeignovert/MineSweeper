@@ -102622,7 +102622,7 @@ A.Oo.prototype={
 G(a){return A.aP0(new A.a82(),A.bca(B.Fg,a),t.H)}}
 A.a82.prototype={
 $2(a,b){var s,r=null,q=b.a
-if(q===B.hz)return A.fb(B.E,A.a([A.agO("assets/images/MineSweeper.png",r,r,r,r,r,r),B.GK],t.p),B.z,B.aH,r)
+if(q===B.hz)return A.fb(B.E,A.a([A.agO("assets/assets/images/MineSweeper.png",r,r,r,r,r,r),B.GK],t.p),B.z,B.aH,r)
 else if(q===B.eN){q=$.ay
 s=(q==null?$.ay=$.bB():q).bP("[DEFAULT]")
 A.b5(s,$.bu(),!0)
@@ -102642,7 +102642,7 @@ q.x=A.aP3(p,s)}return new A.Hj(new A.a7Y(),new A.a7Z(),new A.a8_(),new A.a80(),A
 $S:610}
 A.a7Y.prototype={
 $3(a,b,c){var s=null
-return new A.b4(B.cF,new A.Bs(1,A.agO("assets/images/MineSweeper.png",s,s,s,s,s,s),s),s)},
+return new A.b4(B.cF,new A.Bs(1,A.agO("assets/assets/images/MineSweeper.png",s,s,s,s,s,s),s),s)},
 $C:"$3",
 $R:3,
 $S:611}
@@ -102654,7 +102654,7 @@ $2(a,b){return B.Tv},
 $S:211}
 A.a7Z.prototype={
 $2(a,b){var s=null
-return new A.b4(B.cF,new A.Bs(1,A.agO("assets/images/MineSweeper.png",s,s,s,s,s,s),s),s)},
+return new A.b4(B.cF,new A.Bs(1,A.agO("assets/assets/images/MineSweeper.png",s,s,s,s,s,s),s),s)},
 $S:613}
 A.Sp.prototype={}
 A.D6.prototype={
